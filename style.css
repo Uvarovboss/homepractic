@@ -1,5 +1,5 @@
 body{
-	width: 100%;
+	max-width: 2200px;
 	margin: 0 auto;
 	font-family: 'Nanum Gothic', sans-serif;
 	font-weight: bold;
@@ -14,6 +14,10 @@ header{
 	flex-wrap: wrap;
 	font-family: 'Nanum Gothic', sans-serif;
 	color: white;
+}
+nav a{
+	text-decoration: none;
+	color: black;
 }
 .head h1{
 	margin-bottom: 0px;
