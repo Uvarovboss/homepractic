@@ -19,6 +19,7 @@ header{
 
 header ul{
 	display: flex;
+	flex-wrap: wrap;
 }
 li{
 	margin: 15px;
@@ -49,13 +50,17 @@ article p{
 }
 footer{
 	margin-top: 5%;
-	background: url(background.png);
+	background: url(../img/background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .Big{
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.Big div{
+	min-width: 300px;
 }
 footer a {
 	color: #d54c4c;

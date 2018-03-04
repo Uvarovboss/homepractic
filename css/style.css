@@ -5,15 +5,23 @@ body{
 	font-weight: bold;
 }
 header{
-	border-top: solid 15px black;
+	
 	border-bottom: solid 15px black;
-	background-color: #d54c4c;
 	height: 80vh;
+	background-color: #d54c4c;
+	
+}
+.nav{
+	border-top: solid 15px black;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	font-family: 'Nanum Gothic', sans-serif;
+	background-color: #d54c4c;
 	color: white;
+}
+.nav ul{
+	display: flex;
+	flex-wrap: wrap;
 }
 nav a{
 	color: white;
@@ -32,9 +40,6 @@ a:hover{
 }
 
 
-header ul{
-	display: flex;
-}
 li{
 	margin: 15px;
 	list-style: none;
@@ -43,7 +48,8 @@ li{
 .fond{
 	width: 60%;
 	position: relative;
-	top: 10%;
+	top: 15%;
+	left: 20%;
 }
 .fond img{
 	width: 100%;
@@ -57,6 +63,9 @@ article{
 article p{
 	text-align:center;
 }
+#main_section{
+	flex-wrap: wrap;
+}
 .text{
 	margin-top: 10%;
 	text-align-last: center;
@@ -64,20 +73,24 @@ article p{
 button{
 	margin-top: 5%;
 	padding: 10px;
-	width: 15%;
+	width: 150px;
 	border-radius: 50px; 
 	background-color:#d54c4c;
 	color: white;
 	border: solid 5px #29292930;
+	transition: all 1s;
 }
-/*button a{
-	color: white;
-}*/
+button:hover{
+	color: black;
+	transition: all 1s;
+}
 .boss{
-	width: 27%;
+	margin-top: 20px;
+	width: 25%;
+	min-width: 300px;
 }
 .foto{
-	width: 250px;
+	width: 80%;
 	height: 120px;
 	border: solid 10px #29292910;
 	color: black;
@@ -89,6 +102,7 @@ button{
 }
 .boss h3{
 	color: black;
+	text-align: center;
 }
 section{
 	margin-top: 5%;
@@ -96,22 +110,24 @@ section{
 	justify-content: center;
 }
  section a{
-	margin-left: 60%;
+	margin-left: 50%;
 	text-decoration: none;
 	color: #d54c4c;
 }
 section p{
 	font-weight: normal;
+	text-align: center;
 }
 footer{
 	margin-top: 5%;
-	background: url(background.png);
+	background: url(../img/background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .Big{
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 footer a {
 	color: #d54c4c;
@@ -151,6 +167,9 @@ h3{
 	width: 25%;
 	color: white;
 }
+.Big div{
+	min-width: 300px;
+}
 span{
 	font-style: italic;
 	color: grey;
@@ -163,3 +182,21 @@ span{
 	margin-right: 30px;
 	padding-bottom: 10px;
 }
+/*@media screen and (max-width: 1350px) {
+   .wrap{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .boss{
+    	display: flex;
+    	flex-wrap: wrap;
+    }*/
+
+}
+/*@media screen and (max-width: 900px){
+	.Big{
+		flex-wrap: wrap;
+
+	}
+}*/
