@@ -182,16 +182,16 @@ span{
 	margin-right: 30px;
 	padding-bottom: 10px;
 }
-/*@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1350px) {
    .wrap{
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .boss{
     	display: flex;
     	flex-wrap: wrap;
-    }*/
+    }
 
 }
 /*@media screen and (max-width: 900px){
