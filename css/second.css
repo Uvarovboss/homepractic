@@ -6,7 +6,7 @@ header{
 	border-bottom: solid 15px;
 	background-color: #d54c4c;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	font-family: 'Nanum Gothic', sans-serif;
 }
@@ -34,11 +34,11 @@ article{
 }
 article div img{
 	width: 100%;
-	height: 60vh
+	/*height: 60vh*/
 }
 .foto{
 	width: 70%;
-	height: 60vh;
+	/*height: 60vh;*/
 	border: solid 10px #29292930;
 }
 article h3{
@@ -102,9 +102,6 @@ span{
 	color: grey;
 	margin: 0;
 }
-.Big div{
-	min-width: 300px;
-}
 .dno{
 	text-align:right;
 	color: grey;
@@ -115,4 +112,44 @@ span{
 a{
 	text-decoration:none;
 	color: black;
+}
+
+
+@media screen and (max-width:1130px) {
+.Big div{
+	width: 300px;
+}
+}
+@media screen and (max-width:533px) {
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+ul {
+	display: flex;
+	flex-direction: column;
+	font-size: 15px;
+}
+}
+@media screen and (max-width:320px) {
+.Big {
+	width: 99%;
+	font-size: 14px
+}
+.foot div{
+	width: 99%;
+}
+.foot {
+	width: 99%;
+}
+.footer_boss {
+	width: 99%;
+}
+.footer_boss div{
+	width: 99%;
+}
+.braser_boss {
+	width: 99%;
+}
 }

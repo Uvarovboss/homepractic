@@ -116,3 +116,43 @@ a{
 	text-decoration:none;
 	color: black;
 }
+
+
+@media screen and (max-width:1130px) {
+.Big div{
+	width: 300px;
+}
+}
+@media screen and (max-width:533px) {
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+ul {
+	display: flex;
+	flex-direction: column;
+	font-size: 15px;
+}
+}
+@media screen and (max-width:320px) {
+.Big {
+	width: 99%;
+	font-size: 14px
+}
+.foot div{
+	width: 99%;
+}
+.foot {
+	width: 99%;
+}
+.footer_boss {
+	width: 99%;
+}
+.footer_boss div{
+	width: 99%;
+}
+.braser_boss {
+	width: 99%;
+}
+}

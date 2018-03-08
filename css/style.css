@@ -86,7 +86,7 @@ button:hover{
 .boss{
 	margin-top: 20px;
 	width: 25%;
-	min-width: 300px;
+/*	min-width: 300px;*/
 }
 .foto{
 	width: 80%;
@@ -127,7 +127,6 @@ footer{
 .Big{
 	display: flex;
 	justify-content: space-around;
-/*	flex-wrap: wrap;*/
 }
 footer a {
 	color: #d54c4c;
@@ -181,6 +180,11 @@ span{
 	font-size: 13px;
 	margin-right: 30px;
 	padding-bottom: 10px;
+}
+@media screen and (max-width:300px){
+	.wrap p{
+		font-size: 14px;
+	}
 }
  @media screen and (max-width:800px){
  	.wrap{
@@ -237,6 +241,7 @@ span{
  		margin:0px 5px 5px 10px;
  	}
  }
+ 
  @media screen and (max-width:800px){
  .fond img{
 	position: relative;
@@ -255,15 +260,35 @@ span{
 	top: 40px;
 }
 }
-@media screen and (max-width:400px){
- .fond img{
-	position: relative;
-	top: 30px;
+
+@media screen and (max-width:320px) {
+.Big {
+	width: 99%;
+	font-size: 14px
 }
+.foot div{
+	width: 99%;
 }
-@media screen and (max-width:320px){
- .fond img{
-	position: relative;
-	top: 30px;
+.foot {
+	width: 90%;
+}
+.footer_boss {
+	width: 99%;
+}
+.footer_boss div{
+	width: 99%;
+}
+.braser_boss {
+	width: 99%;
+}
+.braser_boss p{
+	font-size: 13px;
+	width: 80%;
+}
+.foot p{
+	font-size: 12px;
+}
+span{
+	width: 60%;
 }
 }
