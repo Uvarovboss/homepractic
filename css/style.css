@@ -167,7 +167,7 @@ h3{
 	color: white;
 }
 .Big div{
-	min-width: 300px;
+	min-width: 200px;
 }
 span{
 	font-style: italic;
@@ -234,11 +234,11 @@ span{
  	}
  }
  @media screen and (max-width:900px){
- 	.Big{
+ 	.Big{ 
  		display: flex;
  		flex-direction: column;
  		align-items: center;
- 		margin:0px 5px 5px 10px;
+ 		margin:0px 5px 5px 0px;
  	}
  }
  
@@ -279,7 +279,7 @@ span{
 	width: 99%;
 }
 .braser_boss {
-	width: 99%;
+	width: 90%;
 }
 .braser_boss p{
 	font-size: 13px;
